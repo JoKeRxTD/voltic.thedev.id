@@ -1,0 +1,15 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2C2F33;
+    text-decoration: none;
+}
+
+.headerTitle 
+{
+    color: #7289DA;
+    padding: 25%;
+    text-decoration: none;
+}
