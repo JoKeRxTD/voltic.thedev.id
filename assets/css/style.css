@@ -6,8 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #2C2F33;
-    text-decoration: none;
+    background-color: #2C2F33; 
+    text-decoration: none; 
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,7 +19,6 @@
     color: #7289DA;
     text-decoration: underline;
 }
-
 
 .discord_id 
     {
@@ -34,9 +33,17 @@
   }
   .logoImg 
   {
-    margin: 5%;
+    margin: 2%;
     max-height: 20rem;
     max-width: 20rem;
+  }
+  
+  
+
+  .staffImg {
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
   }
   
   @keyframes discord_id {
@@ -48,16 +55,13 @@
     from, to { border-color: transparent }
     50% { border-color: #7289DA; }
   }
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
     width: 450px;
     height: 125px;
-    /* border: 1px solid #7289DA; */
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    /* border: 1px solid #7289DA; */  
   }
   
-  /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -93,11 +97,7 @@
     color: #7289DA;
     transform: rotateY(180deg);
   }
-
-
-  .card-title {
-      color: #7289DA;
-  }
+  
 
   
   
