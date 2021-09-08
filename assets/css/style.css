@@ -99,5 +99,64 @@
   }
   
 
+  .card-img-top {
+    /* border-radius: 50%; */
+    background-color: #2C2F33;
+      }
+  .card {
+    color: #fafafa;
+    background-color: #2C2F33;
+    border: solid 1px #7289DA;
+    padding: 1rem;
+  }
+
+  .btn_discord {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #fafafa;
+    text-decoration: none;
+    border: solid 1px #7289DA;
+    padding: .5rem;
+  }
+  .btn_portfolio {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #fafafa;
+    text-decoration: none;
+    border: solid 1px #7289DA;    
+    padding: .5rem;
+  }
+  .btn_projects {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #fafafa;
+    text-decoration: none;
+    border: solid 1px #7289DA;
+    padding: .5rem;
+  }
+  .btn_discord:hover {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #7289DA;
+    text-decoration: none;
+  }
+  .btn_portfolio:hover {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #7289DA;
+    text-decoration: none;
+  }
+  .btn_projects:hover {
+    padding: .25rem;
+    border-radius: .25rem;
+    color: #7289DA;
+    text-decoration: none;
+  }
+
+  .staffRoles {
+    background-color: #2C2F33;
+    padding: .5rem;
+    text-decoration: none;
+  }
   
   
