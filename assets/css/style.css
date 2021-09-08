@@ -139,18 +139,24 @@
     border-radius: .25rem;
     color: #7289DA;
     text-decoration: none;
+    border: solid 1px #7289DA;
+    padding: .5rem;
   }
   .btn_portfolio:hover {
     padding: .25rem;
     border-radius: .25rem;
     color: #7289DA;
     text-decoration: none;
+    border: solid 1px #7289DA;
+    padding: .5rem;
   }
   .btn_projects:hover {
     padding: .25rem;
     border-radius: .25rem;
     color: #7289DA;
     text-decoration: none;
+    border: solid 1px #7289DA;
+    padding: .5rem;
   }
 
   .staffRoles {
