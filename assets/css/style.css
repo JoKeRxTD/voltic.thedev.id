@@ -107,7 +107,8 @@
     color: #fafafa;
     background-color: #2C2F33;
     border: solid 1px #7289DA;
-    padding: 1rem;
+    /* padding: .5rem; */
+    max-width: 500rem;
   }
 
   .btn_discord {
@@ -160,6 +161,7 @@
   }
 
   .staffRoles {
+    color: #81848b;
     background-color: #2C2F33;
     padding: .5rem;
     text-decoration: none;
