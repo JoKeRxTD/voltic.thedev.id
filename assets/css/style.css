@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #2C2F33; 
     text-decoration: none; 
     font-family: 'Poppins', sans-serif;
 }
@@ -19,6 +18,21 @@
     color: #7289DA;
     text-decoration: underline;
 }
+
+.navbar-brand {
+  margin-left: 2rem;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #2C2F33; 
+}
+
+.container {
+  text-align: center;
+}
+
+
 
 .discord_id 
     {
@@ -42,8 +56,8 @@
 
   .staffImg {
     border-radius: 50%;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 100px;
+    max-height: 100px;
   }
   
   @keyframes discord_id {
@@ -55,10 +69,11 @@
     from, to { border-color: transparent }
     50% { border-color: #7289DA; }
   }
-.flip-card {
+flip-card {
     background-color: transparent;
     width: 450px;
     height: 125px;
+    text-align: center;
     /* border: 1px solid #7289DA; */  
   }
   
