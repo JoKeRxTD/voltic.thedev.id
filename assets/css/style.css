@@ -53,6 +53,9 @@ body {
   }
   
   
+  .staffTeam {
+    column-gap: normal;
+  }
 
   .staffImg {
     border-radius: 50%;
