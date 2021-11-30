@@ -19,6 +19,10 @@
     text-decoration: underline;
 }
 
+.dropdown {
+  margin-right: 5rem;
+}
+
 .navbar-brand {
   margin-left: 2rem;
   justify-content: space-between;
