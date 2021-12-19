@@ -16,15 +16,12 @@ body {
 
 .headerTitle  
 {
-    color: #7289DA;
+    color: #fafafa;
 }
 .staffsectionTitle {
-    color: #7289DA;
-    text-decoration: underline;
-}
-
-.dropdown {
-  margin-right: 5rem;
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -44,10 +41,9 @@ body {
     letter-spacing: .15em; 
     animation: 
       typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      blink-caret .90s step-end infinite;
   }
-  .logoImg 
-  {
+  .logoImg {
     margin: 2%;
     max-height: 20rem;
     max-width: 20rem;
@@ -60,8 +56,8 @@ body {
 
   .staffImg {
     border-radius: 5%;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 250px;
+    max-height: 250px;
   }
   
   @keyframes discord_id {
@@ -73,7 +69,7 @@ body {
     from, to { border-color: transparent }
     50% { border-color: #7289DA; }
   }
-flip-card {
+  flip-card {
     background-color: transparent;
     width: 450px;
     height: 125px;
