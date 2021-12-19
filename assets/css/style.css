@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none; 
-    font-family: 'Poppins', sans-serif;
+*{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
 }
+body {
+    padding: 0;
+    /* background-image: url(../img/background.gif); */
+    background-color: #0A0F16;
+    background-size: 20%;
+    text-decoration: none;
+  }
 
 .headerTitle  
 {
@@ -23,14 +27,7 @@
   margin-right: 5rem;
 }
 
-.navbar-brand {
-  margin-left: 2rem;
-  justify-content: space-between;
-}
 
-body {
-  background-color: #2C2F33; 
-}
 
 .container {
   text-align: center;
@@ -62,9 +59,9 @@ body {
   }
 
   .staffImg {
-    border-radius: 50%;
-    max-width: 100px;
-    max-height: 100px;
+    border-radius: 5%;
+    max-width: 350px;
+    max-height: 350px;
   }
   
   @keyframes discord_id {
@@ -121,72 +118,74 @@ flip-card {
   }
   
 
-  .card-img-top {
-    /* border-radius: 50%; */
-    background-color: #2C2F33;
-      }
-  .card {
-    color: #fafafa;
-    background-color: #2C2F33;
-    border: solid 1px #7289DA;
-    /* padding: .5rem; */
-    max-width: 500rem;
+  .endPoints {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
   }
 
-  .btn_discord {
-    padding: .25rem;
-    border-radius: .25rem;
+  .nav li a {
+    font-size: .8rem;
     color: #fafafa;
-    text-decoration: none;
-    border: solid 1px #7289DA;
+    background-color: #0e141d;
+    border-radius: .5rem;
+    border: solid .75px #1a2535;
+    display: flexbox;
+    margin-left: 1.6rem;
+  	flex-wrap: nowrap;
+	  justify-content: space-evenly;
     padding: .5rem;
+    /* width: 9rem; */
   }
-  .btn_portfolio {
-    padding: .25rem;
-    border-radius: .25rem;
+  .nav li a:hover {
+    font-size: .8rem;
     color: #fafafa;
-    text-decoration: none;
-    border: solid 1px #7289DA;    
+    background-color: #1a2535;
+    border-radius: .5rem;
+    border: solid .75px #0e141d;
+    display: flexbox;
+    margin-left: 1.6rem;
+  	flex-wrap: nowrap;
+	  justify-content: space-evenly;
     padding: .5rem;
-  }
-  .btn_projects {
-    padding: .25rem;
-    border-radius: .25rem;
-    color: #fafafa;
-    text-decoration: none;
-    border: solid 1px #7289DA;
-    padding: .5rem;
-  }
-  .btn_discord:hover {
-    padding: .25rem;
-    border-radius: .25rem;
-    color: #7289DA;
-    text-decoration: none;
-    border: solid 1px #7289DA;
-    padding: .5rem;
-  }
-  .btn_portfolio:hover {
-    padding: .25rem;
-    border-radius: .25rem;
-    color: #7289DA;
-    text-decoration: none;
-    border: solid 1px #7289DA;
-    padding: .5rem;
-  }
-  .btn_projects:hover {
-    padding: .25rem;
-    border-radius: .25rem;
-    color: #7289DA;
-    text-decoration: none;
-    border: solid 1px #7289DA;
-    padding: .5rem;
+    /* width: 9rem; */
   }
 
-  .staffRoles {
-    color: #81848b;
-    background-color: #2C2F33;
-    padding: .5rem;
-    text-decoration: none;
+  .btn.btn-outline-dark {
+    font-size: 1.1vh;
+    color: #fafafa;
+    background-color: #0e141d;
+    border-radius: .5rem;
+    border: solid .75px #1a2535;
+    text-align: center;
+    width: 5rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-around;
   }
   
+  .btn.btn-outline-dark:hover {
+    font-size: 1.1vh;
+    color: #fafafa;
+    background-color: #1a2535;
+    border-radius: .5rem;
+    border: solid .75px #0e141d;
+    text-align: center;
+    width: 5rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-around;
+  }
+
+  .card {
+    text-decoration: none;
+	  width: 25rem;
+    transition-duration: .7s;
+  }
+  .card:hover {
+    text-decoration: none;
+	  width: 25rem;
+    transform: scale(1.1,1.1);
+    transition-duration: 1s;
+  }
   
