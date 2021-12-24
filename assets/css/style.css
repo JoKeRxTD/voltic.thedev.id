@@ -14,23 +14,21 @@ body {
     text-decoration: none;
   }
 
-.headerTitle  
-{
-    color: #fafafa;
-}
-.staffsectionTitle {
-    color: #fafafa;
-    text-decoration: none;
-    font-weight: bold;
+.headerTitle  {
+    color: #97A9B4;
 }
 
+.staffsectionTitle {
+    color: #97A9B4;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
 
 
 .container {
   text-align: center;
 }
-
-
 
 .discord_id 
     {
@@ -43,12 +41,12 @@ body {
       typing 3.5s steps(40, end),
       blink-caret .90s step-end infinite;
   }
+
   .logoImg {
     margin: 2%;
-    max-height: 20rem;
-    max-width: 20rem;
+    max-height: 12rem;
+    max-width: 12rem;
   }
-  
   
   .staffTeam {
     column-gap: normal;
@@ -115,9 +113,9 @@ body {
   
 
   .endPoints {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav li a {
