@@ -182,7 +182,7 @@ body {
 	  width: 20rem;
     transform: scale(1.1,1.1);
     transition-duration: .5s;
-    border: solid 1px #fafafa80;
+    border: solid 1px #1a2535;
     box-shadow: 0 0 15px #1a2535;
   }
   
