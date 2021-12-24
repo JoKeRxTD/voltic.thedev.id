@@ -1,4 +1,4 @@
-var url = "https://api.mythbot.org/api/lanyard.php"; // URL of API
+var url = "https://api.lanyard.rest/v1/users/116730818822537225"; // URL of API
 fetch(url).then(function (response) {
   if (response.ok) {
     // Check if response went through
