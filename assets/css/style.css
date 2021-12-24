@@ -54,8 +54,8 @@ body {
 
   .staffImg {
     border-radius: 5%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 175px;
+    max-height: 175px;
   }
   
   @keyframes discord_id {
@@ -152,7 +152,7 @@ body {
     border-radius: .5rem;
     border: solid .75px #1a2535;
     text-align: center;
-    width: 5rem;
+    width: 5.7rem;
     display: flexbox;
     flex-basis: inherit;
     justify-content: space-around;
@@ -165,7 +165,7 @@ body {
     border-radius: .5rem;
     border: solid .75px #0e141d;
     text-align: center;
-    width: 5rem;
+    width: 5.7rem;
     display: flexbox;
     flex-basis: inherit;
     justify-content: space-around;
@@ -173,13 +173,16 @@ body {
 
   .card {
     text-decoration: none;
-	  width: 25rem;
-    transition-duration: .7s;
+	  width: 20rem;
+    transform: scale(1,1);
+    transition-duration: .5s;
   }
   .card:hover {
     text-decoration: none;
-	  width: 25rem;
+	  width: 20rem;
     transform: scale(1.1,1.1);
-    transition-duration: 1s;
+    transition-duration: .5s;
+    border: solid 1px #fafafa80;
+    box-shadow: 0 0 15px #1a2535;
   }
   
