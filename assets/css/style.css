@@ -8,7 +8,6 @@
 }
 body {
     padding: 0;
-    /* background-image: url(../img/background.gif); */
     background-color: #0A0F16;
     background-size: 20%;
     text-decoration: none;
@@ -33,8 +32,7 @@ body {
   text-align: center;
 }
 
-.discord_id 
-    {
+.discord_id {
     overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: nowrap; 
@@ -154,29 +152,38 @@ body {
   }
 
   .btn.btn-outline-dark {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
     color: #fafafa;
     background-color: #0e141d;
     border-radius: .5rem;
     border: solid .75px #1a2535;
     text-align: center;
-    width: 5.7rem;
+    width: 4.7rem;
+    padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
     justify-content: space-around;
+
+    transform: scale(0.9,0.9);
+    transition-duration: .5s;
   }
   
   .btn.btn-outline-dark:hover {
-    font-size: 1.5vh;
+    font-size: 1.7vh;
     color: #fafafa;
     background-color: #1a2535;
     border-radius: .5rem;
     border: solid .75px #0e141d;
     text-align: center;
-    width: 5.7rem;
+    width: 4.7rem;
+    padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
     justify-content: space-around;
+
+    transform: scale(1,5,1,5);
+    transition-duration: .5s;
+    box-shadow: 0 0 15px #1a2535;
   }
 
   .card {
@@ -218,7 +225,7 @@ body {
     }
 
     .btn.btn-outline-dark {
-      font-size: 1.3vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #0e141d;
       border-radius: .5rem;
@@ -232,7 +239,7 @@ body {
     }
     
     .btn.btn-outline-dark:hover {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #1a2535;
       border-radius: .5rem;
@@ -270,7 +277,7 @@ body {
     }
 
     .btn.btn-outline-dark {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #0e141d;
       border-radius: .5rem;
@@ -283,7 +290,7 @@ body {
     }
     
     .btn.btn-outline-dark:hover {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #1a2535;
       border-radius: .5rem;
@@ -322,7 +329,7 @@ body {
     }
 
     .btn.btn-outline-dark {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #0e141d;
       border-radius: .5rem;
@@ -335,7 +342,7 @@ body {
     }
     
     .btn.btn-outline-dark:hover {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #1a2535;
       border-radius: .5rem;
@@ -373,7 +380,7 @@ body {
     }
 
     .btn.btn-outline-dark {
-      font-size: 1.3vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #0e141d;
       border-radius: .5rem;
@@ -386,7 +393,7 @@ body {
     }
     
     .btn.btn-outline-dark:hover {
-      font-size: 1.3vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #1a2535;
       border-radius: .5rem;
@@ -424,7 +431,7 @@ body {
     }
 
     .btn.btn-outline-dark  {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #0e141d;
       border-radius: .5rem;
@@ -438,7 +445,7 @@ body {
     }
     
     .btn.btn-outline-dark:hover {
-      font-size: 1.5vh;
+      font-size: 1.7vh;
       color: #fafafa;
       background-color: #1a2535;
       border-radius: .5rem;
