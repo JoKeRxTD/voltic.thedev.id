@@ -158,11 +158,11 @@ body {
     border-radius: .5rem;
     border: solid .75px #1a2535;
     text-align: center;
-    width: 4.7rem;
+    width: 5.7rem;
     padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
-    justify-content: space-around;
+    justify-content: space-between;
 
     transform: scale(0.9,0.9);
     transition-duration: .5s;
@@ -175,11 +175,11 @@ body {
     border-radius: .5rem;
     border: solid .75px #0e141d;
     text-align: center;
-    width: 4.7rem;
+    width: 5.7rem;
     padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
-    justify-content: space-around;
+    justify-content: space-between;
 
     transform: scale(1,5,1,5);
     transition-duration: .5s;
@@ -188,13 +188,13 @@ body {
 
   .card {
     text-decoration: none;
-	  width: 20rem;
+	  width: 23rem;
     transform: scale(0.9,0.9);
     transition-duration: .5s;
   }
   .card:hover {
     text-decoration: none;
-	  width: 20rem;
+	  width: 23rem;
     transform: scale(1,1);
     transition-duration: .5s;
     border: solid 1px #1a2535;
