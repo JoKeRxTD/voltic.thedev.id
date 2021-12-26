@@ -45,9 +45,20 @@ body {
 
   .logoImg {
     /* margin: 2%; */
-    align-items: left;
-    max-height: 12rem;
-    max-width: 12rem;
+    justify-content: center;
+    /* align-items: right; */
+    margin-left: 35rem;
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .openSource {
+    color: #fafafa;
+    text-decoration: none;
+  }
+  .fab.fa-github.github:hover {
+    color: #3c5985;
+    text-decoration: none;
   }
   
   .staffTeam {
@@ -251,6 +262,15 @@ body {
       flex-basis: inherit;
       justify-content: space-around;
     }
+
+    .logoImg {
+      /* margin: 2%; */
+      justify-content: center;
+      /* align-items: right; */
+      margin-left: 25rem;
+      height: 12rem;
+      width: 12rem;
+    }
   }
 
   /*! 1049px Mobile Responsive */
@@ -300,6 +320,15 @@ body {
       display: flexbox;
       flex-basis: inherit;
       justify-content: space-around;
+    }
+
+    .logoImg {
+      /* margin: 2%; */
+      justify-content: center;
+      /* align-items: right; */
+      margin-left: 15rem;
+      height: 12rem;
+      width: 12rem;
     }
   }
 
@@ -352,6 +381,15 @@ body {
       display: flexbox;
       flex-basis: inherit;
       justify-content: space-around;
+    }
+
+    .logoImg {
+      /* margin: 2%; */
+      justify-content: center;
+      /* align-items: right; */
+      margin-left: 10rem;
+      height: 12rem;
+      width: 12rem;
     }
   }
     /*! 686px Mobile Responsive */
@@ -455,6 +493,15 @@ body {
       flex-basis: inherit;
       justify-content: space-around;
       
+    }
+
+    .logoImg {
+      /* margin: 2%; */
+      justify-content: center;
+      /* align-items: right; */
+      margin-left: 5rem;
+      height: 12rem;
+      width: 12rem;
     }
   }
   
