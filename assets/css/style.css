@@ -15,6 +15,13 @@ body {
 
 .headerTitle  {
     color: #97A9B4;
+    text-align: center;
+    font-size: 2rem;
+}
+.headerDesc  {
+    color: #97A9B4;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .staffsectionTitle {
@@ -24,13 +31,15 @@ body {
     font-size: 1.7rem;
 }
 
+.container {
+  text-align: center;
+}
+
 .btn.btn-outline-dark i {
   position: relative;
 }
 
-.container {
-  text-align: center;
-}
+
 
 .discord_id {
     overflow: hidden; 
@@ -44,10 +53,6 @@ body {
   }
 
   .logoImg {
-    /* margin: 2%; */
-    justify-content: center;
-    /* align-items: right; */
-    margin-left: 35rem;
     height: 12rem;
     width: 12rem;
   }
@@ -169,7 +174,7 @@ body {
     border-radius: .5rem;
     border: solid .75px #1a2535;
     text-align: center;
-    width: 5.7rem;
+    width: 4.7rem;
     padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
@@ -186,7 +191,7 @@ body {
     border-radius: .5rem;
     border: solid .75px #0e141d;
     text-align: center;
-    width: 5.7rem;
+    width: 4.7rem;
     padding: .1rem;
     display: flexbox;
     flex-basis: inherit;
@@ -263,14 +268,7 @@ body {
       justify-content: space-around;
     }
 
-    .logoImg {
-      /* margin: 2%; */
-      justify-content: center;
-      /* align-items: right; */
-      margin-left: 25rem;
-      height: 12rem;
-      width: 12rem;
-    }
+   
   }
 
   /*! 1049px Mobile Responsive */
@@ -322,19 +320,12 @@ body {
       justify-content: space-around;
     }
 
-    .logoImg {
-      /* margin: 2%; */
-      justify-content: center;
-      /* align-items: right; */
-      margin-left: 15rem;
-      height: 12rem;
-      width: 12rem;
-    }
+  
   }
 
   
     /*! 841px Mobile Responsive */
-  @media only screen and (max-width:841px) {
+  @media only screen and (max-width:992px) {
     /* For mobile phones: */
     .card {
       text-decoration: none;
@@ -381,15 +372,6 @@ body {
       display: flexbox;
       flex-basis: inherit;
       justify-content: space-around;
-    }
-
-    .logoImg {
-      /* margin: 2%; */
-      justify-content: center;
-      /* align-items: right; */
-      margin-left: 10rem;
-      height: 12rem;
-      width: 12rem;
     }
   }
     /*! 686px Mobile Responsive */
@@ -449,6 +431,7 @@ body {
     .card {
       text-decoration: none;
       width: 15rem;
+      height: 35rem;
       transform: scale(0.9,0.9);
       transition-duration: .5s;
       margin: auto;
@@ -456,6 +439,7 @@ body {
     .card:hover {
       text-decoration: none;
       width: 15rem;
+      height: 35rem;
       transform: scale(1,1);
       transition-duration: .5s;
       border: solid 1px #1a2535;
@@ -495,13 +479,6 @@ body {
       
     }
 
-    .logoImg {
-      /* margin: 2%; */
-      justify-content: center;
-      /* align-items: right; */
-      margin-left: 5rem;
-      height: 12rem;
-      width: 12rem;
-    }
+    
   }
   

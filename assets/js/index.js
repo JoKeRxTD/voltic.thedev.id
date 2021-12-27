@@ -13,7 +13,7 @@ fetch(url).then(function (response) {
                 (o, c) => (o.length === 29 ? `${o}${c}...` : `${o}${c}`),
                 ""
               )}`
-          : "JoKeR#0001"
+          : "JoKeR#0001" 
       }`;
       discordStatusHTML.innerHTML += status;
     });
