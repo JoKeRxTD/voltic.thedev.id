@@ -15,9 +15,10 @@ fetch(url).then(function (response) {
               )}`
           : "JoKeR#0001" 
       }`;
-      discordStatusHTML.innerHTML += status;
+      discordStatusHTML.innerHTML += status; 
     });
   } else {
     console.log("Response failed?");
   }
 });
+
