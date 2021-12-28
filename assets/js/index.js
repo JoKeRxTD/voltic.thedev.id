@@ -22,3 +22,23 @@ fetch(url).then(function (response) {
   }
 });
 
+var url2 = "https://api.lanyard.rest/v1/users/116730818822537225"; // URL of API
+fetch(url2).then(function (response) {
+  if (response.ok) {
+    // Check if response went through
+    response.json().then(function (data) {
+      // var jokerAvatarHTML = document.getElementById("joker_avatar");
+      var jokerAvatarHTML = document.getElementById("joker_avatar").href;
+      
+      var avatar = `${
+        data.data.discord_user.avatar
+          ? `https://cdn.discordapp.com/avatars/116730818822537225/${data.data.discord_user.avatar}.png`
+          : "Discord API Error 404" 
+      }`;
+      jokerAvatarHTML.innerHTML += avatar; 
+    });
+  } else {
+    console.log("Response failed?");
+  }
+});
+
