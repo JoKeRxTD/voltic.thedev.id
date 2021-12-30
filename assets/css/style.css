@@ -2,79 +2,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 
-*{
-  text-decoration: none;
-  font-family: 'Nunito', sans-serif;
-  
-}
-body {
-    /* padding: 0; */
+  *{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+  } 
+
+  body {
     background-color: #0A0F16;
     background-size: 20%;
   }
 
-#tooltip {
+  #tooltip {
     background-color: #333;
     color: #fafafa;
     padding: 2px 5px;
     border-radius: 4px;
     font-size: 13px;
   }
-#arrow,
-#arrow::before {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background: inherit;
-}
-#arrow {
-  visibility: hidden;
-}
-#arrow::before {
-  visibility: visible;
-  content: '';
-  transform: rotate(45deg);
-}
-#tooltip[data-popper-placement^='bottom'] > #arrow {
-  top: -3px;
-}
-#tooltip {
-  display: none;
-}
-#tooltip[data-show] {
-  display: block;
-}
-.headerTitle  {
+
+  #arrow,
+  #arrow::before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: inherit;
+  }
+
+  #arrow {
+    visibility: hidden;
+  }
+
+  #arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+  }
+
+  #tooltip[data-popper-placement^='bottom'] > #arrow {
+    top: -3px;
+  }
+
+  #tooltip {
+    display: none;
+  }
+
+  #tooltip[data-show] {
+    display: block;
+  }
+
+  .headerTitle  {
     color: #97A9B4;
     text-align: center;
     font-size: 2rem;
-}
-.headerDesc  {
+  }
+
+  .headerDesc  { 
     color: #97A9B4;
     text-align: center;
-    font-size: 1.5rem;
-}
+    font-size: 1.5rem; 
+  }
 
-.header {
+  .header {
     color: #97A9B4;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.7rem;
     padding-top: 10rem;
     padding-bottom: 2rem
-}
+  }
 
-.container {
-  text-align: center;
-}
+  .container {
+    text-align: center;
+  }
 
-.btn.btn-outline-dark i {
-  position: relative;
-}
+  .btn.btn-outline-dark i {
+    position: relative;
+  }
 
 
 
-.discord_id {
+  .discord_id {
     overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: nowrap; 
@@ -135,38 +142,29 @@ body {
     transform-style: preserve-3d;
   }
   
-  /* .card-text {
-    font-size: 1rem;
-  } */
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
   
-  /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #2C2F33;
     color: #7289DA;
   }
   
-  /* Style the back side */
   .flip-card-back {
     background-color: #2C2F33;
     color: #7289DA;
     transform: rotateY(180deg);
   }
   
-
   .endPoints {
     display: flex;
     flex-direction: row;
@@ -192,6 +190,7 @@ body {
     padding: .5rem;
     /* width: 9rem; */
   }
+
   .nav li a:hover {
     font-size: .8rem;
     color: #fafafa;
@@ -238,6 +237,7 @@ body {
     transition-duration: .3s;
     box-shadow: 0 0 15px #1a2535;
   }
+
   .btn2.btn-outline-dark {
     font-size: 1.7vh;
     color: #fafafa;
@@ -272,14 +272,17 @@ body {
     transition-duration: .2s;
     /* box-shadow: 0 0 15px #1a2535; */
   }
+
   .btn2 i.fab.fa-github{
     color: #fafafa;
     text-align: center;
   }
+
   .btn2 i.fab.fa-discord{
     color: #7289DA;
     text-align: center;
   }
+
   .btn2 i.fab.fa-twitter{
     color: #1DA1F2;
     text-align: center;
@@ -291,6 +294,7 @@ body {
      transform: scale(1,1);
     transition-duration: .2s; 
   }
+
   .card:hover {
     text-decoration: none;
 	  width: 23rem;
@@ -311,6 +315,7 @@ body {
       transform: scale(0.9,0.9);
       transition-duration: .5s;
     }
+
     .card:hover {
       text-decoration: none;
       width: 18rem;
@@ -319,6 +324,7 @@ body {
       border: solid 1px #1a2535;
       box-shadow: 0 0 15px #1a2535;
     }
+
     .endPoints {
       display: flex;
       flex-direction: row;
@@ -365,6 +371,7 @@ body {
       transform: scale(0.9,0.9);
       transition-duration: .5s;
     }
+
     .card:hover {
       text-decoration: none;
       width: 15rem;
@@ -373,6 +380,7 @@ body {
       border: solid 1px #1a2535;
       box-shadow: 0 0 15px #1a2535;
     }
+
     .endPoints {
       display: flex;
       flex-direction: row;
@@ -418,6 +426,7 @@ body {
       transform: scale(0.9,0.9);
       transition-duration: .5s;
     }
+
     .card:hover {
       text-decoration: none;
       width: 18rem;
@@ -426,6 +435,7 @@ body {
       border: solid 1px #1a2535;
       box-shadow: 0 0 15px #1a2535;
     }
+
     .endPoints {
       display: grid;
       grid-template-rows: max-content;
@@ -469,6 +479,7 @@ body {
       transition-duration: .5s;
       margin: auto;
     }
+
     .card:hover {
       text-decoration: none;
       width: 20rem;
@@ -477,6 +488,7 @@ body {
       border: solid 1px #1a2535;
       box-shadow: 0 0 15px #1a2535;
     }
+
     .endPoints {
       display: grid;
       grid-template-rows: max-content;
@@ -521,6 +533,7 @@ body {
       transition-duration: .5s;
       margin: auto;
     }
+
     .card:hover {
       text-decoration: none;
       width: 15rem;
@@ -530,6 +543,7 @@ body {
       border: solid 1px #1a2535;
       box-shadow: 0 0 15px #1a2535;
     }
+
     .endPoints {
       display: grid;
       grid-template-rows: max-content;
@@ -563,7 +577,5 @@ body {
       justify-content: space-around;
       
     }
-
-    
   }
   
