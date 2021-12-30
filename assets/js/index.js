@@ -15,7 +15,7 @@ fetch(url).then(function (response) {
               )}`
           : "JoKeR#0001" 
       }`;
-      discordStatusHTML.innerHTML += status; 
+      discordStatusHTML.innerHTML += status;  
     });
   } else {
     console.log("Response failed?");
@@ -26,7 +26,7 @@ var url2 = "https://api.lanyard.rest/v1/users/116730818822537225"; // URL of API
 fetch(url2).then(function (response) {
   if (response.ok) {
     // Check if response went through
-    response.json().then(function (data) {
+    response.json().then(function (data) { 
       // var jokerAvatarHTML = document.getElementById("joker_avatar");
       var jokerAvatarHTML = document.getElementById("joker_avatar").href;
       

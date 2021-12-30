@@ -55,11 +55,13 @@ body {
     font-size: 1.5rem;
 }
 
-.staffsectionTitle {
+.header {
     color: #97A9B4;
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.7rem;
+    padding-top: 10rem;
+    padding-bottom: 2rem
 }
 
 .container {
@@ -287,16 +289,18 @@ body {
     text-decoration: none;
 	  width: 23rem;
      transform: scale(1,1);
-    transition-duration: .5s; 
+    transition-duration: .2s; 
   }
   .card:hover {
     text-decoration: none;
 	  width: 23rem;
-     transform: scale(1.05,1.05);
-     transition-duration: .5s; 
+     transform: scale(1.03,1.03);
+     transition-duration: .2s; 
     /* border: solid 1px #1a2535; */
-    box-shadow: 0 0 15px #1a2535;
+    /* box-shadow: 0 0 15px #1a2535; */
   }
+
+  
 
    /*! 1272px Mobile Responsive */
    @media only screen and (max-width:1272px) {
