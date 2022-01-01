@@ -40,5 +40,5 @@ fetch(url2).then(function (response) {
   } else {
     console.log("Response failed?");
   }
-});
+}); 
 

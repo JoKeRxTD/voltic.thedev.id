@@ -273,6 +273,36 @@
     /* box-shadow: 0 0 15px #1a2535; */
   }
 
+  .btn3.btn-outline-dark {
+    font-size: 1.7vh;
+    color: #fafafa;
+    background-color: #0e141d;
+    /* border-radius: .5rem; */
+    border: solid .75px #1a2535;
+    text-align: center;
+    width: 5.7rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-between;
+    text-decoration: none;
+
+  }
+  
+  .btn3.btn-outline-dark:hover {
+    font-size: 1.7vh;
+    color: #fafafa;
+    background-color: #1a2535;
+    /* border-radius: .5rem; */
+    /* border: solid .75px #0e141d; */
+    text-align: center;
+    width: 5.7rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-between;
+    text-decoration: none;
+    box-shadow: 0 0 15px #1a2535;
+  }
+
   .btn2 i.fab.fa-github{
     color: #fafafa;
     text-align: center;
