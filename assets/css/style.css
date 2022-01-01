@@ -277,7 +277,7 @@
     font-size: 1.7vh;
     color: #fafafa;
     background-color: #0e141d;
-    /* border-radius: .5rem; */
+    border-radius: .5rem;
     border: solid .75px #1a2535;
     text-align: center;
     width: 5.7rem;
@@ -292,7 +292,7 @@
     font-size: 1.7vh;
     color: #fafafa;
     background-color: #1a2535;
-    /* border-radius: .5rem; */
+    border-radius: .5rem;
     /* border: solid .75px #0e141d; */
     text-align: center;
     width: 5.7rem;
