@@ -79,7 +79,10 @@
     position: relative;
   }
 
-
+.storeImg {
+  height: 13rem;
+  width: 17rem;
+}
 
   .discord_id {
     overflow: hidden; 
@@ -301,6 +304,41 @@
     justify-content: space-between;
     text-decoration: none;
     box-shadow: 0 0 15px #1a2535;
+  }
+
+  .btn4.btn-outline-dark {
+    font-size: 1.3vh;
+    color: #fafafa;
+    background-color: #0e141d;
+    border-radius: .5rem;
+    border: solid .75px #1a2535;
+    text-align: center;
+    width: 3.7rem;
+    padding: .5rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-between;
+    text-decoration: none;
+
+    transform: scale(1,1);
+    transition-duration: .3s;
+  }
+  
+  .btn4.btn-outline-dark:hover {
+    font-size: 1.3vh;
+    color: #fafafa;
+    background-color: #1a2535;
+    border-radius: .5rem;
+    /* border: solid .75px #0e141d; */
+    text-align: center;
+    width: 3.7rem;
+    display: flexbox;
+    flex-basis: inherit;
+    justify-content: space-between;
+
+    transform: scale(1,1,1,1);
+    transition-duration: .3s;
+    /* box-shadow: 0 0 15px #1a2535; */
   }
 
   .btn2 i.fab.fa-github{
