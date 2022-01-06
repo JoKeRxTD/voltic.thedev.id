@@ -56,6 +56,13 @@
     font-size: 2rem;
   }
 
+  .contactUs {
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    
+  }
+
   .headerDesc  { 
     color: #97A9B4;
     text-align: center;
@@ -157,6 +164,13 @@
     backface-visibility: hidden;
   }
   
+  .list-group-item {
+    background-color: #0e141d;
+    color:#fafafa;
+    font-size: 1.3vh;
+    border: none;
+  }
+  
   .flip-card-front {
     background-color: #2C2F33;
     color: #7289DA;
@@ -168,10 +182,25 @@
     transform: rotateY(180deg);
   }
   
-  .endPoints {
+  .ourTeam {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .ourProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ourStore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .webhostingPackages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .nav {
@@ -371,6 +400,21 @@
     /* border: solid 1px #1a2535; */
     /* box-shadow: 0 0 15px #1a2535; */
   }
+  .card2 {
+    text-decoration: none;
+	  width: 15rem;
+     transform: scale(1,1);
+    transition-duration: .2s; 
+  }
+
+  .card2:hover {
+    text-decoration: none;
+	  width: 15rem;
+     transform: scale(1.03,1.03);
+     transition-duration: .2s; 
+    /* border: solid 1px #1a2535; */
+    /* box-shadow: 0 0 15px #1a2535; */
+  }
 
   
 
@@ -393,7 +437,7 @@
       box-shadow: 0 0 15px #1a2535;
     }
 
-    .endPoints {
+    .ourTeam {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -449,7 +493,7 @@
       box-shadow: 0 0 15px #1a2535;
     }
 
-    .endPoints {
+    .ourTeam {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -504,7 +548,7 @@
       box-shadow: 0 0 15px #1a2535;
     }
 
-    .endPoints {
+    .ourTeam {
       display: grid;
       grid-template-rows: max-content;
       /* flex-direction: row; */
@@ -557,7 +601,7 @@
       box-shadow: 0 0 15px #1a2535;
     }
 
-    .endPoints {
+    .ourTeam {
       display: grid;
       grid-template-rows: max-content;
       /* flex-direction: row; */
@@ -612,7 +656,7 @@
       box-shadow: 0 0 15px #1a2535;
     }
 
-    .endPoints {
+    .ourTeam {
       display: grid;
       grid-template-rows: max-content;
       /* flex-direction: row; */
