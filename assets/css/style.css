@@ -187,6 +187,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .ourTools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .ourProjects {
     display: flex;
     flex-direction: row;
