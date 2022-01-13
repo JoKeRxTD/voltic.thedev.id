@@ -389,6 +389,36 @@
     /* box-shadow: 0 0 15px #1a2535; */
   }
 
+  .btn5.btn-outline-dark {
+    font-size: 1rem;
+    color: #fafafa;
+    background-color: #0e141d;
+    border-radius: .5rem;
+    border: solid .75px #1a2535;
+    display: flexbox;
+    margin-left: 1.6rem;
+  	flex-wrap: nowrap;
+	  justify-content: space-evenly;
+    padding: .3rem;
+    text-decoration: none;
+    /* width: 9rem; */
+  }
+  
+  .btn5.btn-outline-dark:hover {
+    font-size: 1rem;
+    color: #fafafa;
+    background-color: #1a2535;
+    border-radius: .5rem;
+    border: solid .75px #0e141d;
+    display: flexbox;
+    margin-left: 1.6rem;
+  	flex-wrap: nowrap;
+	  justify-content: space-evenly;
+    padding: .3rem;
+    text-decoration: none;
+    /* width: 9rem; */
+  }
+
   .btn2 i.fab.fa-github{
     color: #fafafa;
     text-align: center;
