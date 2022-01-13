@@ -189,7 +189,7 @@
   }
   .ourTools {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
   .ourProjects {
@@ -206,6 +206,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .card1 {
+    background-color: #1a2535;
+    transform: scale(1,1);
+    transition-duration: .5s; 
+    /* box-shadow: 0px 0px 5px 5px #0e141d; */
+  }
+
+  .card1:hover {
+    background-color: #1a2535;
+    transform: scale(1,1);
+    transition-duration: .5s; 
+    box-shadow: 0px 0px 15px 5px #7289DA;
   }
 
   .nav {
