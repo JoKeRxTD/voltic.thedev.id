@@ -50,17 +50,22 @@
     display: block;
   }
 
+  #serverList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem;
+  }
+
+  .euserverList {
+    display: flexbox;
+    flex-direction: row;
+  }
+
   .headerTitle  {
     color: #97A9B4;
     text-align: center;
     font-size: 2rem;
-  }
-
-  .contactUs {
-    display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    
   }
 
   .headerDesc  { 
@@ -213,7 +218,6 @@
   .ourTeam {
     display: flex;
     flex-direction: row;
-    
     justify-content: space-between;
   }
   .ourTools {
