@@ -761,7 +761,7 @@
     }
   }
     /*! 375px Mobile Responsive */
-  @media only screen and (max-width:375px) {
+    @media only screen and (max-width:350px) {
     /* For mobile phones: */
     .card {
       text-decoration: none;
@@ -813,7 +813,13 @@
       display: flexbox;
       flex-basis: inherit;
       justify-content: space-around;
-      
+      padding: 1rem;
     }
+     .nav-bar  {
+      display: list-item;
+      /* grid-template-rows: max-content; */
+      justify-content: space-around;
+      
+     }
   }
   
