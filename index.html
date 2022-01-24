@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet"/>
     <title>Voltic Development | Home</title> 
     <link rel="apple-touch-icon" href="./assets/img/vlogo.png">
     <link rel="icon" href="./assets/img/vlogo.png"> 
@@ -66,8 +70,14 @@
             <h2 style="text-decoration: none; color: #7289DA; font-size: 2rem;  color: #97A9B4;text-align: center;">Voltic Development</h2><br>
         <p class="headerTitle" style="font-size: 1rem;"> 
             Welcome to our new website. We hope you find what you are looking for, In the mean time <br>Join our <a class="discord_id" draggable="false" href="./discord.html" style="text-decoration: none; color: #97A9B4; font-weight: bolder;" ><i class="bi bi-discord" style="color: #7289DA;"></i>Discord</a><br><br><br>
-            <a href="./discord.html" class="btn6 btn-outline-dark" target="_blank" style="padding: 5px 25px 5px 25px;"><i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;Discord</a>
-            <a href="./store.html" class="btn6 btn-outline-dark" target="_blank" style="padding: 5px 25px 5px 25px;"><i class="fas fa-store" style="color: #1c7723;"></i>&nbsp;Store</a><br>
+            <a class="btn btn-primary" style="background-color: #1a2535;width: 10rem;" href="./discord.html" role="button">
+              <i class="fab fa-discord"></i>
+              Support
+            </a>&nbsp;
+            <a class="btn btn-primary" style="background-color: #1a2535;width: 10rem;" href="./store.html" role="button">
+              <i class="fas fa-store"></i>
+              Store
+            </a>&nbsp;
         </p><br>
         
     <br>
@@ -87,72 +97,106 @@
         </div>
         <div class="ourTeam">
           <!--! JoKeR#0001 -->
-          <div class="card text-white bg-dark" >
+          <div class="card text-white bg-dark" style="height: 50px;">
              <div class="card-header" style="background-color: #1a2535;">
                 <i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;JoKeR#0001</div>
-                <div class="card-body" style="background-color: #0e141d;"><br>
-                <!-- <center><img class="staffImg" src="./assets/img/staff/joker.gif" > </img></center><br> -->
-                <center><img class="staffImg" id="joker_avatar" src="https://cdn.discordapp.com/avatars/116730818822537225/a_8e5fad610c822f5ecb4721066bb9ab97.gif"></img></center><br><br><br>
-                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >CEO / Lead Developer</a> </h5>
+                <div class="card-body" style="background-color: #0e141d;">
+                <center><img class="staffImg" id="joker_avatar" src="./assets/img/staff/joker.gif"></img></center><br>
+                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >CEO / Lead Developer</a> </h5><br>
                 <p class="card-text" href="https://discord.com/users/116730818822537225" style="color: #fafafa;">I am always looking to learn new things! It is all about the&nbsp;<a href="./discord.html" style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Experience</a></p><br>
-                <a href="https://joker.is-a.dev" class="btn btn-outline-dark"><i class="fas fa-home" style="color: #6b3434;"></i>&nbsp;</a>
-                <a href="https://github.com/jokerxtd" class="btn btn-outline-dark"><i style="color: #fafafa;" class="bi bi-github"></i>&nbsp;</a>
-                <a href="./discord.html" class="btn btn-outline-dark"><i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;</a>
-                <a href="https://twitter.com/JoKeRxHD" class="btn btn-outline-dark"><i style="color: #1DA1F2;" class="bi bi-twitter"></i>&nbsp;</a>
-                <a href="https://api.mythbot.org" class="btn btn-outline-dark"><i style="color: #6b3434;" class="fas fa-eye"></i>&nbsp;</a><br>
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="https://joker.is-a.dev" role="button">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/jokerxtd" role="button">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #7289DA;" href="./discord.html" role="button">
+                  <i class="bi bi-discord"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/JoKeRxHD" role="button">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="https://api.mythbot.org" role="button">
+                  <i class="fas fa-eye"></i>
+                </a>
               </div>
             </div>
           <!--! ZeroTwo#9568 -->
-          <div class="card text-white bg-dark" >
+          <div class="card text-white bg-dark" style="height: 50px;margin-bottom: 25rem;">
              <div class="card-header" style="background-color: #1a2535;">
                 <i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;ZeroTwo#9568</div>
-                <div class="card-body" style="background-color: #0e141d;"><br>
+                <div class="card-body" style="background-color: #0e141d;">
                 <center><img class="staffImg" src="https://cdn.mythbot.org/img/dev_sz1knkm7.png" > </img></center><br>
-                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Developer</a></h5>
+                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Developer</a></h5><br>
                 <p class="card-text" href="https://discord.com/users/899722893603274793" style="color: #fafafa;">Oh no, Looks like I accidentally became a&nbsp;<a style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Developer</a></p><br>
-                <a href="https://zerotwo.zerotwo36.repl.co/" class="btn btn-outline-dark"><i class="fas fa-home" style="color: #6b3434;"></i>&nbsp;</a>
-                <a href="https://github.com/ZeroTwo36" class="btn btn-outline-dark"><i style="color: #fafafa;" class="bi bi-github"></i>&nbsp;</a>
-                <a href="https://discord.gg/RVppWSxK3P" class="btn btn-outline-dark"><i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;</a>
-                <a href="https://www.instagram.com/ZeroTwo.36" class="btn btn-outline-dark"><i style="color: #bc2a8d;" class="bi bi-instagram"></i>&nbsp;</a>
-                <a href="mailto:ZeroTwo36@protonmail.com" class="btn btn-outline-dark"><i style="color: #6b3434;" class="fas fa-at"></i>&nbsp;</a>
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="https://zerotwo.zerotwo36.repl.co/" role="button">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/ZeroTwo36" role="button">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #7289DA;" href="https://discord.gg/RVppWSxK3P" role="button">
+                  <i class="bi bi-discord"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #bc2a8d;" href="https://www.instagram.com/ZeroTwo.36" role="button">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="mailto:ZeroTwo36@protonmail.com" role="button">
+                  <i class="fas fa-at"></i>
+                </a>
               </div>
             </div>
             <!--! DS_Stift007#4606 -->
-          <div class="card text-white bg-dark">
+          <div class="card text-white bg-dark"style="height: 50px;">
              <div class="card-header" style="background-color: #1a2535;">
                 <i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;DS_Stift007#4606
                 </div>
-                <div class="card-body" style="background-color: #0e141d;"><br>
+                <div class="card-body" style="background-color: #0e141d;">
                 <center><img class="staffImg" src="https://cdn.mythbot.org/img/dev_h050nej1.png" > </img></center><br>
-                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Developer</a></h5>
+                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Developer</a></h5><br>
                 <p class="card-text" href="https://discord.com/users/685180177419993102" style="color: #fafafa;">Founder and Developer of&nbsp;<a style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Midna</a>&nbsp;&&nbsp;<a style="text-decoration: none; color: #7289DA; font-weight: bolder;" >OctoCat</a></p><br><br>
-                <a href="https://stift007.glitch.me/" class="btn btn-outline-dark"><i class="fas fa-home" style="color: #6b3434;"></i>&nbsp;</a>
-                <a href="https://github.com/Stift007" class="btn btn-outline-dark"><i style="color: #fafafa;" class="bi bi-github"></i>&nbsp;</a>
-                <a href="https://replit.com/Stift007" class="btn btn-outline-dark"><i style="color: #fafafa;"  class="fab fa-replyd"></i>&nbsp;</a>
-                <a href="https://twitter.com/Clyde__Chan" class="btn btn-outline-dark"><i style="color: #1DA1F2;" class="bi bi-twitter"></i>&nbsp;</a>
-                <a href="https://9gag.com/u/dsstift" class="btn btn-outline-dark"><i style="color: #6b3434;" class="fas fa-eye"></i>&nbsp;</a>
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="https://stift007.glitch.me/" role="button">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/Stift007" role="button">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #7289DA;" href="https://replit.com/Stift007" role="button">
+                  <i class="fab fa-replyd"></i>
+                </a>
+                <a class="btn btn-primary" style="background-color: #bc2a8d;" href="https://twitter.com/Clyde__Chan" role="button">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <!-- <a href="https://api.mythbot.org" class="btn btn-outline-dark"><i style="color: #6b3434;" class="fas fa-eye"></i>&nbsp;</a><br> -->
+                <a class="btn btn-primary" style="background-color: #6b3434;" href="https://9gag.com/u/dsstift" role="button">
+                  <i class="fas fa-eye""></i>
+                </a>
               </div>
             </div>
-        
         </div><br><br>
           <center>
              <!--! Saria#2561 -->
-           <div class="card text-white bg-dark">
+           <div class="card text-white bg-dark" style="height: 50px;">
             <div class="card-header" style="background-color: #1a2535;">
                <i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;Saria#2561
                </div>
                <div class="card-body" style="background-color: #0e141d;"><br>
-               <center><img class="staffImg" src="https://cdn.mythbot.org/img/dev_xf0ts9i0.png" > </img></center><br>
+               <center><img class="staffImg" src="https://cdn.mythbot.org/img/dev_xf0ts9i0.png" > </img></center><br><br>
                <h5><a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Moderator</a></h5>
                <p class="card-text" href="https://discord.com/users/685180177419993102" style="color: #fafafa;">Moderator and Developer for&nbsp;<a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Discord Bots</a>&nbsp;and&nbsp;<a  style="text-decoration: none; color: #7289DA; font-weight: bolder;" >Servers</a></p><br>
-               <a href="https://replit.com/Just__Saria" class="btn btn-outline-dark"><i class="fas fa-home" style="color: #6b3434;"></i>&nbsp;</a>
-               <!-- <a href="/" class="btn btn-outline-dark"><i style="color: #fafafa;" class="bi bi-github"></i>&nbsp;</a> -->
-               <a href="https://discord.gg/dap8QWMuGG" class="btn btn-outline-dark"><i style="color: #7289DA;"  class="bi bi-discord"></i>&nbsp;</a>
-               <a href="Saria" class="btn btn-outline-dark"><i style="color: #FF0000;" class="bi bi-youtube"></i>&nbsp;</a>
-               <!-- <a href="/" class="btn btn-outline-dark"><i style="color: #6b3434;" class="fas fa-eye"></i>&nbsp;</a> -->
+               <a class="btn btn-primary" style="background-color: #6b3434;" href="https://replit.com/Just__Saria" role="button">
+                <i class="fas fa-home"></i>
+              </a>
+              <a class="btn btn-primary" style="background-color: #333333;" href="https://dscjobs.org/cv/878726683195240468" role="button">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a class="btn btn-primary" style="background-color: #7289DA;" href="https://discord.gg/dap8QWMuGG" role="button">
+                <i class="bi bi-discord"></i>
+              </a>
              </div>
            </div>
           </center>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="header"style="text-decoration: none;">
           <h4>Join our <a href="./discord.html" style="text-decoration: none; color: #7289DA; font-weight: bolder;text" >Discord</a> </h4>
         </div>
